@@ -9,34 +9,19 @@
 Pod::Spec.new do |s|
   s.name             = 'QQTabBarController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QQTabBarController.'
+  s.summary          = 'A custom UITabBarController which can add a center button beyond the tabBar\'s bounds'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A custom UITabBarController which can add a center button beyond the tabBar\'s bounds, also can set some properties of UITabBarItem such as background image, titleTextAttributes'
 
   s.homepage         = 'https://github.com/qinqi777/QQTabBarController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qinqi777' => 'qinqi376990311@163.com' }
   s.source           = { :git => 'https://github.com/qinqi777/QQTabBarController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.social_media_url = 'https://blog.csdn.net/qinqi376990311'
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'QQTabBarController/Classes/**/*'
+  s.requires_arc = true
+  s.frameworks = 'UIKit'
   
-  # s.resource_bundles = {
-  #   'QQTabBarController' => ['QQTabBarController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

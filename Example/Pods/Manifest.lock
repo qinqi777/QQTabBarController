@@ -1,0 +1,16 @@
+PODS:
+  - QQTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - QQTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  QQTabBarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QQTabBarController: 78b3aa6a11d8ffcf4675e2b1fa99d91caf64b923
+
+PODFILE CHECKSUM: 084c62bc55d3948048b70e8af14c643542967149
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module QQTabBarController {
+  umbrella header "QQTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}
