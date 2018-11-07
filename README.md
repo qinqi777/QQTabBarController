@@ -26,6 +26,7 @@ pod 'QQTabBarController'
 ## Useage
 
 创建一个控制器，继承于```QQTabBarController```，如需更多自定义设置，可实现协议```QQTabBarConfiguration```，可以设置```tabBarButton```中的文字frame和图片frame，设置```tabBar```的高度，以及额外高度。
+因为需要继承，OC是不可以继承Swift的类的，所以OC暂时用不了这个库哦。
 
 ```Swift
 import QQTabBarController
