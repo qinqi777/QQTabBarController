@@ -1,16 +1,23 @@
 PODS:
-  - QQTabBarController (0.1.0)
+  - QQCorner (1.0.1)
+  - QQTabBarController (0.1.1)
 
 DEPENDENCIES:
+  - QQCorner
   - QQTabBarController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - QQCorner
 
 EXTERNAL SOURCES:
   QQTabBarController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QQTabBarController: 78b3aa6a11d8ffcf4675e2b1fa99d91caf64b923
+  QQCorner: be09ea260482798e782da2ad96789f6e3cf6cda6
+  QQTabBarController: 18cf398a16ccb80cf0b54985b95bc81a85f64498
 
-PODFILE CHECKSUM: 084c62bc55d3948048b70e8af14c643542967149
+PODFILE CHECKSUM: b01eb4457ce86451b1524629b738115a2b876ffc
 
 COCOAPODS: 1.5.3

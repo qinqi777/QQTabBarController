@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QQTabBarController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A custom UITabBarController which can add a center button beyond the tabBar\'s bounds'
-
+  s.swift_version    = '4.2.0'
   s.description      = 'A custom UITabBarController which can add a center button beyond the tabBar\'s bounds, also can set some properties of UITabBarItem such as background image, titleTextAttributes'
 
   s.homepage         = 'https://github.com/qinqi777/QQTabBarController'

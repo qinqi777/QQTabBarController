@@ -15,7 +15,7 @@ import UIKit
     @objc optional func imageRect(forContentRect contentRect: CGRect) -> CGRect
     ///tabBar的高度
     @objc optional func heightForTabBar() -> CGFloat
-    ///超出tabBar的额外高度
+    ///超出tabBar的额外高度，注意，这个不代表中间的按钮超出的高度。而是背景图片的。
     @objc optional func extraTopMargin() -> CGFloat
 }
 

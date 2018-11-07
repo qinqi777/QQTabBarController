@@ -86,8 +86,9 @@ class QQTabBar: UITabBar {
         if let center = centerBtn {
             centerW = center.bounds.width < 1 ? 49 : center.bounds.width
             let centerH = center.bounds.height < 1 ? 49 : center.bounds.height
+            let centerY = center.frame.minY
             let centerX = (bounds.width - centerW) * 0.5
-            center.frame = CGRect(x: centerX, y: bounds.height - centerH, width: centerW, height: centerH)
+            center.frame = CGRect(x: centerX, y: centerY, width: centerW, height: centerH)
         }
         let btnH = frame.height - bottomMargin
         let btnW = (frame.width - centerW) / CGFloat(tabBarBtns.count)

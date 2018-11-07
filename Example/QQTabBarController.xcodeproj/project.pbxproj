@@ -282,10 +282,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QQTabBarController_Example/Pods-QQTabBarController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QQCorner/QQCorner.framework",
 				"${BUILT_PRODUCTS_DIR}/QQTabBarController/QQTabBarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QQCorner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QQTabBarController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

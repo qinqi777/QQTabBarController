@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'QQTabBarController_Example' do
+    
   pod 'QQTabBarController', :path => '../'
-
+  pod 'QQCorner'
+  
   target 'QQTabBarController_Tests' do
     inherit! :search_paths
-
-    
   end
+  
 end

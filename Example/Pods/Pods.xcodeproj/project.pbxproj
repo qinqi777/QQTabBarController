@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B92C25CD4C7984FCFA89C8CC6E9A49 /* QQTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7247EC2A01B07D799D915FEF826A /* QQTabBarController-dummy.m */; };
-		161380452A0245C74051755354131956 /* QQTabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4C38C4AD5A876759E22529A635095 /* QQTabBarConfiguration.swift */; };
-		191E7541A3923652B4E0850EDB30D282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		37F3B52002441569BE770762E69B0C33 /* QQTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738D63D21C33AE85BAC21549544A528 /* QQTabBar.swift */; };
-		3C51B7C50ACD892DCBF434A0B42FE8A5 /* QQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358B228DD3D66C51CA466E56218AF9E5 /* QQTabBarController.swift */; };
+		08BBC863B864609539886D786440E8D7 /* UIImage+QQCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = F87DDAA6FB6AD57648172E3B37DD4DF2 /* UIImage+QQCorner.m */; };
+		0D6942E411B0DEDFB2865583DDD944BD /* QQCornerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F95FCF494FF346D5BF298FD0B505FC /* QQCornerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBD2B334BEC6A4041D6313D7473F057 /* QQCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6E48108912344DA022300F271B6385 /* QQCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C5A78D62B5DACA4AC33A34DAF8854E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		1AC566C21251FAFF500ADC74E0D2C450 /* UIImage+QQCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = C64DFA722B18F868649428DB0DB0CF3B /* UIImage+QQCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0F0A4C33F47850D4B7E11E0C0F6242 /* CALayer+QQCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B91F31AAAA888DE92ED99290A745AE /* CALayer+QQCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303446FBDA38B980F6A149DA369BB5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		32F3ACE594DD60BC4E399AFA62375EC6 /* QQCorner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B64C9161D62D4C628671355CBAD5C0B /* QQCorner-dummy.m */; };
+		4E2E7BC0FAC348688E077E1EB4A1782B /* QQTabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4C38C4AD5A876759E22529A635095 /* QQTabBarConfiguration.swift */; };
+		5450863FE3A0EAFF7C2A9FCBA611E072 /* QQTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45694D4D8403AD4DE8DE6D76A990C7 /* QQTabBarButton.swift */; };
+		5A9260C28B8E09BA8EBDB4EEDAE90F9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		602E4B8A8727255EFE16141211DD46E3 /* Pods-QQTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF66E31099E507644B37E8C797BAB1 /* Pods-QQTabBarController_Example-dummy.m */; };
 		66581D0CC03302DD90F42C079E17E4A4 /* Pods-QQTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 992B7E0EA5A166FAECE2AEBB9DAB69AD /* Pods-QQTabBarController_Tests-dummy.m */; };
-		7C2107479DFDBF6526A9F3EE284E6CC5 /* Pods-QQTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF66E31099E507644B37E8C797BAB1 /* Pods-QQTabBarController_Example-dummy.m */; };
-		CE58B0932310B160CC4CBF8F094F25B7 /* QQTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3D05F095D27BC1904A97617ECE992C /* QQTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2A3D30181C23CB77FB7812A6839B8E5 /* QQTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45694D4D8403AD4DE8DE6D76A990C7 /* QQTabBarButton.swift */; };
-		EBDC1DEAF4363F6E172D808239B9E79F /* Pods-QQTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8614981CC2D3CA47D147410166ABD099 /* Pods-QQTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFC7D5D84E3EC76B65B8547EEDB06B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		F1CEED60E045EB83A6CAC4F264868CD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		F5917ED0498E00986224C1006DA03BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		685E5F8602DF7794B46D19792EA6FC6B /* QQTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3D05F095D27BC1904A97617ECE992C /* QQTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70668411EC48D6F9B43DDEC9E2EED527 /* UIView+QQCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = D87F9D7FED6C6C73BE05201CB3456A6B /* UIView+QQCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A62FF4B815638A1411F898E6BA3B56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		9613D4CB0A7ED17C9E75B9332E7325A4 /* Pods-QQTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8614981CC2D3CA47D147410166ABD099 /* Pods-QQTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BBD4B58F1E9E13E82AC726A98C7E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		9FD3446BCB71138149903029CA25F1CC /* UIView+QQCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 080A1B5B5E500948D541A80269C59842 /* UIView+QQCorner.m */; };
+		A0F65907C0A21FA3F754B363A5F2AB0E /* QQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358B228DD3D66C51CA466E56218AF9E5 /* QQTabBarController.swift */; };
+		B3799AB6A6601E8A5760EF9A39E9DB32 /* CALayer+QQCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBEFE93ADFBE61D0A31A8AB5E210BF6 /* CALayer+QQCorner.m */; };
+		B3D3B4AE5CFD5E1314334C7C92B3AE3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		B73562766910DB751EBED94A3F75C1D7 /* QQCorner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 144037E9B3BBE53526D80DBE6F9CCCAD /* QQCorner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF96E789F846A31BD07F8D288CF02DDA /* QQTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E738D63D21C33AE85BAC21549544A528 /* QQTabBar.swift */; };
+		DD418160E8B74C632C0AEA5E16B73FA4 /* QQCornerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF11C098D13697D5610426CE88EC99A /* QQCornerModel.m */; };
+		E9495D53FED778C209C2B253D82383FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		F0A37574B22131100E58BFD56DB674FA /* QQTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AC7247EC2A01B07D799D915FEF826A /* QQTabBarController-dummy.m */; };
+		F5917ED0498E00986224C1006DA03BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
 		FD48DDC69CED67AE4FED00C326498CA9 /* Pods-QQTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1C0BEA8A51D31BB43FC985ABC61431 /* Pods-QQTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,22 +43,33 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAC5D22E763E9F0B1CDE0EC7FA97001E;
+			remoteGlobalIDString = C430FC4365301A59719A70E01F3F1479;
 			remoteInfo = "Pods-QQTabBarController_Example";
 		};
-		39BEC15FBB0BDCDD07DA0007402A9F52 /* PBXContainerItemProxy */ = {
+		8630F15F0FD18D0073EFCE9141E3E9AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5C2A63E3DA55EDC55466612F8A52ADD;
+			remoteGlobalIDString = B3A99729B4FC5E4BD6A264922EFDEF5F;
 			remoteInfo = QQTabBarController;
+		};
+		DB0D624CC9AA70805FEB4CC6843AF7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C646BE915020AEB70239E73F13D0FF9F;
+			remoteInfo = QQCorner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C83F79D226C405518E7A26E11B84FD /* Pods_QQTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQTabBarController_Example.framework; path = "Pods-QQTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080A1B5B5E500948D541A80269C59842 /* UIView+QQCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QQCorner.m"; path = "QQCorner/Classes/UIView+QQCorner.m"; sourceTree = "<group>"; };
 		0954801A8AD0D626985D568DDA44C2F7 /* QQTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		0F4FC6A716416CC61AA227C727F55716 /* QQCorner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QQCorner.modulemap; sourceTree = "<group>"; };
 		12AC7247EC2A01B07D799D915FEF826A /* QQTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QQTabBarController-dummy.m"; sourceTree = "<group>"; };
-		14657EDA26A23C1D16EA03DAA8D08E04 /* Pods_QQTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQTabBarController_Tests.framework; path = "Pods-QQTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144037E9B3BBE53526D80DBE6F9CCCAD /* QQCorner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQCorner-umbrella.h"; sourceTree = "<group>"; };
+		1B64C9161D62D4C628671355CBAD5C0B /* QQCorner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QQCorner-dummy.m"; sourceTree = "<group>"; };
 		1D4A0A14F1210219A8C70AD31437869E /* Pods-QQTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		216AEADBAD5389BADABEA7009364CA09 /* Pods-QQTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2783755FC7D64C8D24A3A4D60EFEEB85 /* Pods-QQTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
@@ -52,16 +78,21 @@
 		31FAD97F89370E8B854838268384EBC4 /* Pods-QQTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33E6F8CFBD9C54284FBD5D5F5E89D592 /* Pods-QQTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQTabBarController_Example.modulemap"; sourceTree = "<group>"; };
 		358B228DD3D66C51CA466E56218AF9E5 /* QQTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QQTabBarController.swift; path = QQTabBarController/Classes/QQTabBarController.swift; sourceTree = "<group>"; };
+		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3A1C0BEA8A51D31BB43FC985ABC61431 /* Pods-QQTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		460E290F09C67DA754C32BC7104B6EC4 /* Pods_QQTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQTabBarController_Example.framework; path = "Pods-QQTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B91F31AAAA888DE92ED99290A745AE /* CALayer+QQCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+QQCorner.h"; path = "QQCorner/Classes/CALayer+QQCorner.h"; sourceTree = "<group>"; };
+		4519C00CA91A384FB2228337A4BA15C9 /* QQCorner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQCorner.xcconfig; sourceTree = "<group>"; };
+		4D6E48108912344DA022300F271B6385 /* QQCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQCorner.h; path = QQCorner/Classes/QQCorner.h; sourceTree = "<group>"; };
 		5BDF66E31099E507644B37E8C797BAB1 /* Pods-QQTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
 		68C0F1545205E71D01C52FFE9B444568 /* QQTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QQTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		71D8FE0C2B4926CF91F4FAE1D967F577 /* QQTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QQTabBarController.framework; path = QQTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B319E066D4843A1B71A32A2C044083D /* QQTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QQTabBarController.framework; path = QQTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		776F53FDCF533A52102E482BF4413FA0 /* Pods-QQTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DF11C098D13697D5610426CE88EC99A /* QQCornerModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QQCornerModel.m; path = QQCorner/Classes/QQCornerModel.m; sourceTree = "<group>"; };
+		818DBA620AD9E572F79737554D72177B /* QQCorner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QQCorner.framework; path = QQCorner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8614981CC2D3CA47D147410166ABD099 /* Pods-QQTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
 		89D95FC8D7C8829C71DEA2BF988DB3FB /* Pods-QQTabBarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQTabBarController_Example-resources.sh"; sourceTree = "<group>"; };
+		90864EC7874531BF4BB70DE158D084A4 /* QQCorner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQCorner-prefix.pch"; sourceTree = "<group>"; };
 		908AD81CC45E3D17297046B332BEEA7C /* Pods-QQTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		992B7E0EA5A166FAECE2AEBB9DAB69AD /* Pods-QQTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
 		9F4068A0A2FA656C444CC36B6214A99D /* Pods-QQTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -69,25 +100,54 @@
 		A842D2AE965D4D6CE6E7F6E55EB62707 /* QQTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QQTabBarController.modulemap; sourceTree = "<group>"; };
 		AB45694D4D8403AD4DE8DE6D76A990C7 /* QQTabBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QQTabBarButton.swift; path = QQTabBarController/Classes/QQTabBarButton.swift; sourceTree = "<group>"; };
 		B5C2729F4817209DE0A6344B50BD3960 /* Pods-QQTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		B7680A55B887B8AA73F0C15FFEE9D00B /* Pods-QQTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C64DFA722B18F868649428DB0DB0CF3B /* UIImage+QQCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QQCorner.h"; path = "QQCorner/Classes/UIImage+QQCorner.h"; sourceTree = "<group>"; };
 		C771213299486D13D9421BC68D133432 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7EF288D180528FEB79FA791FBFA5B4B /* Pods_QQTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQTabBarController_Tests.framework; path = "Pods-QQTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF4C38C4AD5A876759E22529A635095 /* QQTabBarConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QQTabBarConfiguration.swift; path = QQTabBarController/Classes/QQTabBarConfiguration.swift; sourceTree = "<group>"; };
 		CD39AB98FEBFC010823CAAB517CABD84 /* Pods-QQTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
 		D12AE845E4450B52E22BED4F2A84DC7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D19A2DD38479185365750AFBAD34B749 /* QQTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQTabBarController.xcconfig; sourceTree = "<group>"; };
+		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D87F9D7FED6C6C73BE05201CB3456A6B /* UIView+QQCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QQCorner.h"; path = "QQCorner/Classes/UIView+QQCorner.h"; sourceTree = "<group>"; };
 		DB67BB17E6A74EE34AB5E95B4AC60925 /* Pods-QQTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC3D05F095D27BC1904A97617ECE992C /* QQTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		E6F95FCF494FF346D5BF298FD0B505FC /* QQCornerModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQCornerModel.h; path = QQCorner/Classes/QQCornerModel.h; sourceTree = "<group>"; };
 		E738D63D21C33AE85BAC21549544A528 /* QQTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QQTabBar.swift; path = QQTabBarController/Classes/QQTabBar.swift; sourceTree = "<group>"; };
+		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EEBEFE93ADFBE61D0A31A8AB5E210BF6 /* CALayer+QQCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+QQCorner.m"; path = "QQCorner/Classes/CALayer+QQCorner.m"; sourceTree = "<group>"; };
 		F0B6C8802642F418F7A41D44DF33F29E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12A2395B5D4B16925FB126B886A49A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87DDAA6FB6AD57648172E3B37DD4DF2 /* UIImage+QQCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QQCorner.m"; path = "QQCorner/Classes/UIImage+QQCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C6817F44626D4D53514ED26E4AE45A0 /* Frameworks */ = {
+		067E4088897E1389EDC279D784CB8E9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191E7541A3923652B4E0850EDB30D282 /* Foundation.framework in Frameworks */,
+				303446FBDA38B980F6A149DA369BB5BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C9139CFF307587715D133E727D5240F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BBD4B58F1E9E13E82AC726A98C7E73 /* Foundation.framework in Frameworks */,
+				72A62FF4B815638A1411F898E6BA3B56 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2032158C845295C49A31B9C04D4C5F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9495D53FED778C209C2B253D82383FB /* CoreGraphics.framework in Frameworks */,
+				15C5A78D62B5DACA4AC33A34DAF8854E /* Foundation.framework in Frameworks */,
+				5A9260C28B8E09BA8EBDB4EEDAE90F9C /* QuartzCore.framework in Frameworks */,
+				B3D3B4AE5CFD5E1314334C7C92B3AE3B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,25 +159,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7BE3802664E5312A1E9B3B5F671604B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFC7D5D84E3EC76B65B8547EEDB06B5C /* Foundation.framework in Frameworks */,
-				F1CEED60E045EB83A6CAC4F264868CD7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+				53C8B4AB97860F06FE722851EA867B18 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17663848F8FB8ACD10ED0F934653A220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C83F79D226C405518E7A26E11B84FD /* Pods_QQTabBarController_Example.framework */,
+				C7EF288D180528FEB79FA791FBFA5B4B /* Pods_QQTabBarController_Tests.framework */,
+				818DBA620AD9E572F79737554D72177B /* QQCorner.framework */,
+				6B319E066D4843A1B71A32A2C044083D /* QQTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B7181D6AC1FB75E2BDAEBCB8AFE837 /* QQCorner */ = {
+			isa = PBXGroup;
+			children = (
+				44B91F31AAAA888DE92ED99290A745AE /* CALayer+QQCorner.h */,
+				EEBEFE93ADFBE61D0A31A8AB5E210BF6 /* CALayer+QQCorner.m */,
+				4D6E48108912344DA022300F271B6385 /* QQCorner.h */,
+				E6F95FCF494FF346D5BF298FD0B505FC /* QQCornerModel.h */,
+				7DF11C098D13697D5610426CE88EC99A /* QQCornerModel.m */,
+				C64DFA722B18F868649428DB0DB0CF3B /* UIImage+QQCorner.h */,
+				F87DDAA6FB6AD57648172E3B37DD4DF2 /* UIImage+QQCorner.m */,
+				D87F9D7FED6C6C73BE05201CB3456A6B /* UIView+QQCorner.h */,
+				080A1B5B5E500948D541A80269C59842 /* UIView+QQCorner.m */,
+				F444159FDDDBF2DA23C3FECDCDC16898 /* Support Files */,
+			);
+			name = QQCorner;
+			path = QQCorner;
 			sourceTree = "<group>";
 		};
 		2B99CAC94FA29A60308249D084FAB4EB /* Support Files */ = {
@@ -143,22 +222,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+				37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */,
+				D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */,
+				B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */,
+				E89163E94743FDDD60913C47150E225B /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		505A6A4BD52F3045B167513FD302E563 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				460E290F09C67DA754C32BC7104B6EC4 /* Pods_QQTabBarController_Example.framework */,
-				14657EDA26A23C1D16EA03DAA8D08E04 /* Pods_QQTabBarController_Tests.framework */,
-				71D8FE0C2B4926CF91F4FAE1D967F577 /* QQTabBarController.framework */,
-			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5A9F931EDFD33BDB2F41E2B36D196C35 /* QQTabBarController */ = {
@@ -180,8 +252,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8D42DFBAB3C6B8333D624A2B2C2329A8 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				505A6A4BD52F3045B167513FD302E563 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				9A3849A4E4240D5A9A5CCE52552B97D0 /* Pods */,
+				17663848F8FB8ACD10ED0F934653A220 /* Products */,
 				36E57ABA512BE032D9A5ABEB399CEEDE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -192,6 +265,14 @@
 				5A9F931EDFD33BDB2F41E2B36D196C35 /* QQTabBarController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A3849A4E4240D5A9A5CCE52552B97D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B7181D6AC1FB75E2BDAEBCB8AFE837 /* QQCorner */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B3B0E53B0E85E131BAD3FED92673D417 /* Pod */ = {
@@ -240,6 +321,20 @@
 			path = "Target Support Files/Pods-QQTabBarController_Example";
 			sourceTree = "<group>";
 		};
+		F444159FDDDBF2DA23C3FECDCDC16898 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12A2395B5D4B16925FB126B886A49A7 /* Info.plist */,
+				0F4FC6A716416CC61AA227C727F55716 /* QQCorner.modulemap */,
+				4519C00CA91A384FB2228337A4BA15C9 /* QQCorner.xcconfig */,
+				1B64C9161D62D4C628671355CBAD5C0B /* QQCorner-dummy.m */,
+				90864EC7874531BF4BB70DE158D084A4 /* QQCorner-prefix.pch */,
+				144037E9B3BBE53526D80DBE6F9CCCAD /* QQCorner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QQCorner";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -251,19 +346,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60AF26781F59E8B60D4231865BF975A1 /* Headers */ = {
+		6147B7E65A9A4DFC12DCE62D0C0DFB91 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE58B0932310B160CC4CBF8F094F25B7 /* QQTabBarController-umbrella.h in Headers */,
+				685E5F8602DF7794B46D19792EA6FC6B /* QQTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2FA950294F8A0B715ABDCF9BC9E00DE /* Headers */ = {
+		7CC5C1C428946323DCADEC476BB74C3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDC1DEAF4363F6E172D808239B9E79F /* Pods-QQTabBarController_Example-umbrella.h in Headers */,
+				9613D4CB0A7ED17C9E75B9332E7325A4 /* Pods-QQTabBarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0AC251FD04E2B5592CE389403CB6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0F0A4C33F47850D4B7E11E0C0F6242 /* CALayer+QQCorner.h in Headers */,
+				B73562766910DB751EBED94A3F75C1D7 /* QQCorner-umbrella.h in Headers */,
+				0DBD2B334BEC6A4041D6313D7473F057 /* QQCorner.h in Headers */,
+				0D6942E411B0DEDFB2865583DDD944BD /* QQCornerModel.h in Headers */,
+				1AC566C21251FAFF500ADC74E0D2C450 /* UIImage+QQCorner.h in Headers */,
+				70668411EC48D6F9B43DDEC9E2EED527 /* UIView+QQCorner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +393,16 @@
 			);
 			name = "Pods-QQTabBarController_Tests";
 			productName = "Pods-QQTabBarController_Tests";
-			productReference = 14657EDA26A23C1D16EA03DAA8D08E04 /* Pods_QQTabBarController_Tests.framework */;
+			productReference = C7EF288D180528FEB79FA791FBFA5B4B /* Pods_QQTabBarController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5C2A63E3DA55EDC55466612F8A52ADD /* QQTabBarController */ = {
+		B3A99729B4FC5E4BD6A264922EFDEF5F /* QQTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39E5C2EE3AB29ECEDEE2B8D30D0C9D0B /* Build configuration list for PBXNativeTarget "QQTabBarController" */;
+			buildConfigurationList = 0C35A7CC1E7A1C537FFFCD97841C76E5 /* Build configuration list for PBXNativeTarget "QQTabBarController" */;
 			buildPhases = (
-				D464DC2C7B79931F1044B1A19A258330 /* Sources */,
-				F7BE3802664E5312A1E9B3B5F671604B /* Frameworks */,
-				60AF26781F59E8B60D4231865BF975A1 /* Headers */,
+				CE183F5471EDD2DF3485608666207630 /* Sources */,
+				1C9139CFF307587715D133E727D5240F /* Frameworks */,
+				6147B7E65A9A4DFC12DCE62D0C0DFB91 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -302,25 +410,43 @@
 			);
 			name = QQTabBarController;
 			productName = QQTabBarController;
-			productReference = 71D8FE0C2B4926CF91F4FAE1D967F577 /* QQTabBarController.framework */;
+			productReference = 6B319E066D4843A1B71A32A2C044083D /* QQTabBarController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CAC5D22E763E9F0B1CDE0EC7FA97001E /* Pods-QQTabBarController_Example */ = {
+		C430FC4365301A59719A70E01F3F1479 /* Pods-QQTabBarController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9153E7D9B153B8E9C79CCBC75393D25 /* Build configuration list for PBXNativeTarget "Pods-QQTabBarController_Example" */;
+			buildConfigurationList = F0122F836C98D866EAF00A57C1711A4D /* Build configuration list for PBXNativeTarget "Pods-QQTabBarController_Example" */;
 			buildPhases = (
-				287648EF6EAAA8D93539D00889848AA0 /* Sources */,
-				1C6817F44626D4D53514ED26E4AE45A0 /* Frameworks */,
-				B2FA950294F8A0B715ABDCF9BC9E00DE /* Headers */,
+				D6630FDEA4FA47756B16FBD2076A846F /* Sources */,
+				067E4088897E1389EDC279D784CB8E9C /* Frameworks */,
+				7CC5C1C428946323DCADEC476BB74C3A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67B60AB3172012374599C4EFCB3C80FB /* PBXTargetDependency */,
+				59858C1615E7006685BEB6A78AA64064 /* PBXTargetDependency */,
+				1DB5BE52EA28C18B3C9C247147740FB0 /* PBXTargetDependency */,
 			);
 			name = "Pods-QQTabBarController_Example";
 			productName = "Pods-QQTabBarController_Example";
-			productReference = 460E290F09C67DA754C32BC7104B6EC4 /* Pods_QQTabBarController_Example.framework */;
+			productReference = 02C83F79D226C405518E7A26E11B84FD /* Pods_QQTabBarController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C646BE915020AEB70239E73F13D0FF9F /* QQCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B39D730818FAE5ABAA69B1D4204CAF /* Build configuration list for PBXNativeTarget "QQCorner" */;
+			buildPhases = (
+				5A60C1F68F037B8E3AF7F81BB600B44A /* Sources */,
+				2032158C845295C49A31B9C04D4C5F2F /* Frameworks */,
+				C9C0AC251FD04E2B5592CE389403CB6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQCorner;
+			productName = QQCorner;
+			productReference = 818DBA620AD9E572F79737554D72177B /* QQCorner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -340,35 +466,48 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 505A6A4BD52F3045B167513FD302E563 /* Products */;
+			productRefGroup = 17663848F8FB8ACD10ED0F934653A220 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAC5D22E763E9F0B1CDE0EC7FA97001E /* Pods-QQTabBarController_Example */,
+				C430FC4365301A59719A70E01F3F1479 /* Pods-QQTabBarController_Example */,
 				6B3AEBAE99199144A7B79366BD5FF3C1 /* Pods-QQTabBarController_Tests */,
-				A5C2A63E3DA55EDC55466612F8A52ADD /* QQTabBarController */,
+				C646BE915020AEB70239E73F13D0FF9F /* QQCorner */,
+				B3A99729B4FC5E4BD6A264922EFDEF5F /* QQTabBarController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		287648EF6EAAA8D93539D00889848AA0 /* Sources */ = {
+		5A60C1F68F037B8E3AF7F81BB600B44A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2107479DFDBF6526A9F3EE284E6CC5 /* Pods-QQTabBarController_Example-dummy.m in Sources */,
+				B3799AB6A6601E8A5760EF9A39E9DB32 /* CALayer+QQCorner.m in Sources */,
+				32F3ACE594DD60BC4E399AFA62375EC6 /* QQCorner-dummy.m in Sources */,
+				DD418160E8B74C632C0AEA5E16B73FA4 /* QQCornerModel.m in Sources */,
+				08BBC863B864609539886D786440E8D7 /* UIImage+QQCorner.m in Sources */,
+				9FD3446BCB71138149903029CA25F1CC /* UIView+QQCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D464DC2C7B79931F1044B1A19A258330 /* Sources */ = {
+		CE183F5471EDD2DF3485608666207630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F3B52002441569BE770762E69B0C33 /* QQTabBar.swift in Sources */,
-				D2A3D30181C23CB77FB7812A6839B8E5 /* QQTabBarButton.swift in Sources */,
-				161380452A0245C74051755354131956 /* QQTabBarConfiguration.swift in Sources */,
-				04B92C25CD4C7984FCFA89C8CC6E9A49 /* QQTabBarController-dummy.m in Sources */,
-				3C51B7C50ACD892DCBF434A0B42FE8A5 /* QQTabBarController.swift in Sources */,
+				BF96E789F846A31BD07F8D288CF02DDA /* QQTabBar.swift in Sources */,
+				5450863FE3A0EAFF7C2A9FCBA611E072 /* QQTabBarButton.swift in Sources */,
+				4E2E7BC0FAC348688E077E1EB4A1782B /* QQTabBarConfiguration.swift in Sources */,
+				F0A37574B22131100E58BFD56DB674FA /* QQTabBarController-dummy.m in Sources */,
+				A0F65907C0A21FA3F754B363A5F2AB0E /* QQTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6630FDEA4FA47756B16FBD2076A846F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602E4B8A8727255EFE16141211DD46E3 /* Pods-QQTabBarController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,22 +522,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67B60AB3172012374599C4EFCB3C80FB /* PBXTargetDependency */ = {
+		1DB5BE52EA28C18B3C9C247147740FB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QQTabBarController;
-			target = A5C2A63E3DA55EDC55466612F8A52ADD /* QQTabBarController */;
-			targetProxy = 39BEC15FBB0BDCDD07DA0007402A9F52 /* PBXContainerItemProxy */;
+			target = B3A99729B4FC5E4BD6A264922EFDEF5F /* QQTabBarController */;
+			targetProxy = 8630F15F0FD18D0073EFCE9141E3E9AF /* PBXContainerItemProxy */;
+		};
+		59858C1615E7006685BEB6A78AA64064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QQCorner;
+			target = C646BE915020AEB70239E73F13D0FF9F /* QQCorner */;
+			targetProxy = DB0D624CC9AA70805FEB4CC6843AF7B8 /* PBXContainerItemProxy */;
 		};
 		EABA4F4B2E6D3315BB701022A8FFCEBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QQTabBarController_Example";
-			target = CAC5D22E763E9F0B1CDE0EC7FA97001E /* Pods-QQTabBarController_Example */;
+			target = C430FC4365301A59719A70E01F3F1479 /* Pods-QQTabBarController_Example */;
 			targetProxy = 1D8DE1A06B83AF7F531411EBC45B2336 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1374BAB43D659F37A464CE8AE0C978E8 /* Release */ = {
+		07F4A7BFC9151814E8E530749784A1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4519C00CA91A384FB2228337A4BA15C9 /* QQCorner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QQCorner/QQCorner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QQCorner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QQCorner/QQCorner.modulemap";
+				PRODUCT_MODULE_NAME = QQCorner;
+				PRODUCT_NAME = QQCorner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		516434396D296CD45C9B997D0B509D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D19A2DD38479185365750AFBAD34B749 /* QQTabBarController.xcconfig */;
 			buildSettings = {
@@ -423,7 +600,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.2.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -431,7 +608,7 @@
 			};
 			name = Release;
 		};
-		4D7A26ED9B127AC4DD31A11D9638967E /* Release */ = {
+		5853093890E6FA0D4BD189A83C9ED2CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D4A0A14F1210219A8C70AD31437869E /* Pods-QQTabBarController_Example.release.xcconfig */;
 			buildSettings = {
@@ -465,6 +642,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7FBAD4E7AF0A6FFC623903D2842E4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908AD81CC45E3D17297046B332BEEA7C /* Pods-QQTabBarController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QQTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QQTabBarController_Example/Pods-QQTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -526,6 +738,37 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DB9D22A3E76EA28FE3237F03EF96DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4519C00CA91A384FB2228337A4BA15C9 /* QQCorner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QQCorner/QQCorner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QQCorner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QQCorner/QQCorner.modulemap";
+				PRODUCT_MODULE_NAME = QQCorner;
+				PRODUCT_NAME = QQCorner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -621,7 +864,7 @@
 			};
 			name = Release;
 		};
-		BFEA06AECC1205E98C3B0147F384E52B /* Debug */ = {
+		DC98CB5FEC59CAA311DBD6B0C8FEAD21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D19A2DD38479185365750AFBAD34B749 /* QQTabBarController.xcconfig */;
 			buildSettings = {
@@ -646,42 +889,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D482669120CE94DCB17180DD6C9C1665 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 908AD81CC45E3D17297046B332BEEA7C /* Pods-QQTabBarController_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QQTabBarController_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QQTabBarController_Example/Pods-QQTabBarController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -724,6 +932,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C35A7CC1E7A1C537FFFCD97841C76E5 /* Build configuration list for PBXNativeTarget "QQTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC98CB5FEC59CAA311DBD6B0C8FEAD21 /* Debug */,
+				516434396D296CD45C9B997D0B509D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0D24970CF7DFA8F52D942D600A5B8266 /* Build configuration list for PBXNativeTarget "Pods-QQTabBarController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,20 +959,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39E5C2EE3AB29ECEDEE2B8D30D0C9D0B /* Build configuration list for PBXNativeTarget "QQTabBarController" */ = {
+		60B39D730818FAE5ABAA69B1D4204CAF /* Build configuration list for PBXNativeTarget "QQCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFEA06AECC1205E98C3B0147F384E52B /* Debug */,
-				1374BAB43D659F37A464CE8AE0C978E8 /* Release */,
+				8DB9D22A3E76EA28FE3237F03EF96DBF /* Debug */,
+				07F4A7BFC9151814E8E530749784A1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9153E7D9B153B8E9C79CCBC75393D25 /* Build configuration list for PBXNativeTarget "Pods-QQTabBarController_Example" */ = {
+		F0122F836C98D866EAF00A57C1711A4D /* Build configuration list for PBXNativeTarget "Pods-QQTabBarController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D482669120CE94DCB17180DD6C9C1665 /* Debug */,
-				4D7A26ED9B127AC4DD31A11D9638967E /* Release */,
+				7FBAD4E7AF0A6FFC623903D2842E4931 /* Debug */,
+				5853093890E6FA0D4BD189A83C9ED2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
