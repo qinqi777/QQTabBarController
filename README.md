@@ -80,7 +80,7 @@ extension ExampleViewController: QQTabBarConfiguration {
 ```
 
 #### Objective-C Version
-因为需要继承，OC是不可以继承Swift的类的，所以OC中，我们创建一个工具类来专门处理它
+因为需要继承，OC是不可以继承Swift的类的，所以OC中，我们创建一个工具类来专门处理它。当然在Swift中也可以这么做。
 
 TabbarTool.h
 ```Objective-C
