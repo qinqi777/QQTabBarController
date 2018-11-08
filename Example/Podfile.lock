@@ -1,6 +1,6 @@
 PODS:
   - QQCorner (1.0.1)
-  - QQTabBarController (0.1.1)
+  - QQTabBarController (0.1.2)
 
 DEPENDENCIES:
   - QQCorner
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   QQCorner: be09ea260482798e782da2ad96789f6e3cf6cda6
-  QQTabBarController: 18cf398a16ccb80cf0b54985b95bc81a85f64498
+  QQTabBarController: 2aacc4359d557c315536af1c3a2630943dac81f6
 
 PODFILE CHECKSUM: b01eb4457ce86451b1524629b738115a2b876ffc
 

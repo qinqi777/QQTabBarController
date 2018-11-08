@@ -11,7 +11,7 @@ import UIKit
 open class QQTabBarController: UITabBarController {
 
     ///tabBar的配置
-    open weak var config: QQTabBarConfiguration?
+    @objc open weak var config: QQTabBarConfiguration?
     
     private weak var qq_tabBar: QQTabBar!
     
@@ -65,7 +65,7 @@ open class QQTabBarController: UITabBarController {
         super.addChild(childController)
     }
     
-    open func addCenterBtn(_ btn: UIButton) {
+    @objc open func addCenterBtn(_ btn: UIButton) {
         qq_tabBar.addCenterBtn(btn)
     }
 
