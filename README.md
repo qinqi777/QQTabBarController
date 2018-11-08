@@ -26,7 +26,6 @@ pod 'QQTabBarController'
 ## Useage
 
 创建一个控制器，继承于```QQTabBarController```，如需更多自定义设置，可实现协议```QQTabBarConfiguration```，可以设置```tabBarButton```中的文字frame和图片frame，设置```tabBar```的高度，以及额外高度。
-因为需要继承，OC是不可以继承Swift的类的，所以OC暂时用不了这个库哦。
 
 ```Swift
 import QQTabBarController
@@ -77,6 +76,112 @@ extension ExampleViewController: QQTabBarConfiguration {
     
 }
 
+```
+
+因为需要继承，OC是不可以继承Swift的类的，所以OC中，我们创建一个工具类来专门处理它
+
+TabbarTool.h
+```Objective_C
+#import <UIKit/UIKit.h>
+
+@interface TabBarTool : NSObject
+
++ (UIViewController *)tabBarController;
+    
+@end
+```
+
+TabbarTool.m
+```Objective_C
+#import "TabBarTool.h"
+#import "QQTabBarController-Swift.h"
+#import "QQCorner.h"
+
+@interface TabBarTool () <QQTabBarConfiguration>
+
+@end
+
+@implementation TabBarTool
+
+static TabBarTool *tool;
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        tool = [super allocWithZone:zone];
+    });
+    return tool;
+}
+
++ (UIViewController *)tabBarController {
+    //这里的tool是单例哦~一定要有值，否则被释放了协议中的方法就不会走了。
+    TabBarTool *tool = [[TabBarTool alloc] init];
+    QQTabBarController *tabBarVC = [[QQTabBarController alloc] init];
+    tabBarVC.config = tool;
+    tabBarVC.tabBar.backgroundImage = [[UIImage imageNamed:@"tabbar_bg"] resizableImageWithCapInsets:UIEdgeInsetsMake(30, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    tabBarVC.tabBar.shadowImage = [[UIImage alloc] init];
+    
+    for (int i = 0; i < 4; i++) {
+        UIViewController *vc = [[UIViewController alloc] init];
+        vc.title = [NSString stringWithFormat:@"跟控制器%d", i];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        nav.title = [NSString stringWithFormat:@"导航%d", i];
+        
+        nav.tabBarItem.image = [UIImage imageWithQQCorner:^(QQCorner *corner) {
+            corner.fillColor = [UIColor magentaColor];
+            corner.radius = QQRadiusMakeSame(10);
+        } size:CGSizeMake(20, 20)];
+        nav.tabBarItem.selectedImage = [UIImage imageWithQQCorner:^(QQCorner *corner) {
+            corner.fillColor = [UIColor greenColor];
+            corner.radius = QQRadiusMakeSame(10);
+        } size:CGSizeMake(20, 20)];
+        
+        [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
+        [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
+        
+        [tabBarVC addChildViewController:nav];
+    }
+    
+    UIButton *centerBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    //x值是无效的，这个按钮一定是居中的
+    centerBtn.frame = CGRectMake(0, -8, 60, 60);
+    [centerBtn setBackgroundImage:[UIImage imageWithColor:[UIColor redColor] size:centerBtn.bounds.size cornerRadius:QQRadiusMakeSame(30)] forState:UIControlStateNormal];
+    [centerBtn addTarget:self action:@selector(centerBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [tabBarVC addCenterBtn:centerBtn];
+
+    return tabBarVC;
+}
+
++ (void)centerBtnClicked:(UIButton *)btn {
+    NSLog(@"centerBtnClicked");
+}
+
+#pragma mark - QQTabBarConfiguration
+- (CGFloat)heightForTabBar {
+    return 60;
+}
+
+- (CGFloat)extraTopMargin {
+    return 15;
+}
+
+- (CGRect)imageRectForContentRect:(CGRect)contentRect {
+    return CGRectMake(0, 5, contentRect.size.width, contentRect.size.height * 0.6);
+}
+
+- (CGRect)titleRectForContentRect:(CGRect)contentRect {
+    CGFloat titleY = contentRect.size.height * 0.6;
+    return CGRectMake(0, titleY, contentRect.size.width, contentRect.size.height - titleY - 10);
+}
+
+@end
+```
+
+AppDelegate 中，设置rootVC
+```Objective_C
+#import "TabBarTool.h"
+self.window.rootViewController = [TabBarTool tabBarController];
 ```
 
 ## Author
