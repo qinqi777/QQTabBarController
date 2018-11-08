@@ -25,6 +25,7 @@ pod 'QQTabBarController'
 
 ## Useage
 
+#### Swift Version
 创建一个控制器，继承于```QQTabBarController```，如需更多自定义设置，可实现协议```QQTabBarConfiguration```，可以设置```tabBarButton```中的文字frame和图片frame，设置```tabBar```的高度，以及额外高度。
 
 ```Swift
@@ -78,10 +79,11 @@ extension ExampleViewController: QQTabBarConfiguration {
 
 ```
 
+#### Objective-C Version
 因为需要继承，OC是不可以继承Swift的类的，所以OC中，我们创建一个工具类来专门处理它
 
 TabbarTool.h
-```Objective_C
+```Objective-C
 #import <UIKit/UIKit.h>
 
 @interface TabBarTool : NSObject
@@ -92,7 +94,7 @@ TabbarTool.h
 ```
 
 TabbarTool.m
-```Objective_C
+```Objective-C
 #import "TabBarTool.h"
 #import "QQTabBarController-Swift.h"
 #import "QQCorner.h"
@@ -179,7 +181,7 @@ static TabBarTool *tool;
 ```
 
 AppDelegate 中，设置rootVC
-```Objective_C
+```Objective-C
 #import "TabBarTool.h"
 self.window.rootViewController = [TabBarTool tabBarController];
 ```
